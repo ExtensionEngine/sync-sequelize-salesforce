@@ -1,7 +1,3 @@
 'use strict';
 
-const Sync = require('./sync');
-
-module.exports = {
-  Sync
-};
+module.exports = require('./lib/sync');
