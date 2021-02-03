@@ -17,21 +17,36 @@
   },
   "homepage": "https://github.com/b0rza/sync-sequelize-salesforce#readme",
   "dependencies": {
+    "arbiter": "2.0.2",
     "bluebird": "3.7.2",
     "bunyan": "1.8.15",
     "cron": "1.8.2",
     "cronstrue": "1.108.0",
+    "date-fns": "2.16.1",
+    "jsforce": "1.10.1",
+    "object-hash": "2.1.1",
+    "pg": "^7.12.0",
     "promise-queue": "2.2.5",
-    "sequelize": "6.5.0"
+    "safe-require": "1.0.4",
+    "semver": "7.3.4",
+    "sequelize": "^5.16.0",
+    "umzug": "2.3.0"
   },
   "devDependencies": {
     "@types/eslint": "7.2.6",
+    "emoji-strip": "1.0.1",
     "eslint": "7.19.0",
     "eslint-config-semistandard": "15.0.1",
     "eslint-config-standard": "16.0.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "5.0.0"
+    "eslint-plugin-standard": "5.0.0",
+    "split2": "3.2.2"
+  },
+  "engines": {
+    "node": ">= 8.11.0",
+    "npm": ">= 5.8.0",
+    "postgres": ">= 9.4"
   }
 }
