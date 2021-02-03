@@ -1,3 +1,11 @@
 'use strict';
 
-module.exports = require('./lib/sync');
+const Arbiquelize = require('./lib/arbiquelize');
+const Sqlize = require('./lib/sqlize');
+const Sync = require('./lib/sync');
+
+module.exports = {
+  Arbiquelize,
+  Sqlize,
+  Sync
+};
