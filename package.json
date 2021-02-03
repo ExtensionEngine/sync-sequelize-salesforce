@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/b0rza/sync-sequelize-salesforce#readme",
   "dependencies": {
+    "bluebird": "3.7.2",
     "bunyan": "1.8.15",
     "cron": "1.8.2",
     "cronstrue": "1.108.0",
-    "promise-queue": "2.2.5"
+    "promise-queue": "2.2.5",
+    "sequelize": "6.5.0"
   },
   "devDependencies": {
     "@types/eslint": "7.2.6",
