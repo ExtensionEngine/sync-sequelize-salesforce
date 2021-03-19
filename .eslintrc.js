@@ -8,7 +8,7 @@ module.exports = {
 
   parserOptions: {
     sourceType: 'script',
-    ecmaVersion: 12,
+    ecmaVersion: 12
   },
   extends: [
     'semistandard'
