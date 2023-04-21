@@ -23,7 +23,7 @@
     "cron": "1.8.2",
     "cronstrue": "1.108.0",
     "date-fns": "2.16.1",
-    "jsforce": "1.10.1",
+    "jsforce": "1.11.1",
     "match-all": "1.2.6",
     "memoizee": "0.4.15",
     "object-hash": "2.1.1",
